@@ -1,6 +1,9 @@
 # 📽️ Filmes e séries favoritos 📽️
 
-Projeto inspirado no projeto desenvolvido no evento da Rocketseat: [Clique aqui para acessar]()
+![preview] (./.geovanacassimiro.github.io_ListaDeFavoritos_.png)
+
+Projeto inspirado no projeto desenvolvido no evento da Rocketseat
+> [Clique aqui para acessar](https://geovanacassimiro.github.io/ListaDeFavoritos/)
 
 ## 🛠️ Tecnologias usadas 🛠️
 - HTML
