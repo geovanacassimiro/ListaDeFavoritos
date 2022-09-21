@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', cursive;
+}
+
+ul{
+    list-style: none;
+}
+
+header{
+    padding-top: 32px;
+    height: calc(100px + 15px); 
+  
+}
+
+header div{
+    background-image: linear-gradient(90deg,#C91842, #5CC2E2);
+
+    border-radius: 50%;
+
+    display: flex;
+    padding: 4px; 
+}
+
+header div{
+    width: 120px;
+    margin: auto;
+
+}
+
+h1{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+header div img{
+    width: 100%;
+    border-radius: 50%;
+    
+}
+
+header div:hover{
+    transform: scale(1.1);
+}
+
+
+
+body{
+    background-image: url(./assets/Fundo.jpg);
+    background-position: top center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-color: #00111C;
+    color: white;
+
+}
+
+body*{
+   
+   line-height: 160%;
+}
+
+main {
+    padding-top: 50px;
+    max-width: 600px; 
+    margin: 32px auto;
+
+    display: grid;
+    gap: 24px; /* divisão entre os cards*/
+}
+
+section{
+    background-image: linear-gradient(90deg,#C91842, #5CC2E2);
+    padding-top: 4px;
+    border-radius: 10px;
+}
+
+section div{
+    background-color: #001A2C;
+    padding: 24px;
+    /* padding-top: 24px; */
+    border-radius: 8px;
+
+}
+
+section h2 {
+    letter-spacing: -0.47px;
+    padding-bottom: 8px;
+    font-size: 15px;
+}
+
+section ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+
+}
+
+section li:hover{
+    transform: scale(1.1);
+}
+
+section li img{
+    border-radius: 8px;
+    background-image: linear-gradient(90deg,#C91842, #5CC2E2);
+    padding: 2px;
+    
+}
+
+.movie-list img{
+    width: 90px;
+}
+
+.series-list img{
+    width: 90px;
+}
+
+/* animação*/
+
+header {
+    animation: topo .4s .2s backwards;
+}
+
+main section{
+    animation: base .7s backwards;
+}
+
+main section:nth-child(1){
+    animation-delay: .5s;
+}
+
+main section:nth-child(2){
+    animation-delay: .6s;
+}
+
+main section:nth-child(3){
+    animation-delay: .7s;
+}
+
+
+@keyframes topo {
+    from {
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+    
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes base {
+    from {
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+    
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    
+}
